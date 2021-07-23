@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill this form!</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <h2>Fill the form to subscribe!</h2>
+    <form action="mailto:spandanprasad@gmail.com" method="post" enctype="text/plain">
+        <table cellspacing="10">
+            <tr>
+                <td><label>Full Name:</label></td>
+                <td><input type="text" name="name" id="name"> </td>
+            </tr>
+            <tr>
+                <td><label for="promo">Your Email:</label></td>
+                <td><input type="email" id="email"> </td>
+            </tr>
+            <tr>
+                <td><label for="password">Your Password:</label></td>
+                <td><input type="password" id="password"> </td>
+            </tr>
+            <tr>
+                <td><label>Birthday: </label></td>
+                <td><input type="date" name="birthday"> </td>
+            </tr>
+            <tr>
+                <td><label for="promo">Send me regular updates and offers.</label></td>
+                <td><input type="checkbox" name="promo" checked></td>
+            </tr>
+            <tr>
+                <td><label for="choice">Which one is your favourite?</label></td>
+                <td><input type="radio" id="ch1" name="choice1" value="pizza"> Pizza <input type="radio" id="ch1"
+                        name="choice1" value="More pizza"> More Pizza </td>
+            </tr>
+            <tr>
+                <td><label for="fsdfs">Preferred method of communication:</label></td>
+                <td><input type="radio" id="contactChoice1" name="contact" value="email">
+                    <label for="contactChoice1">Email</label>
+
+                    <input type="radio" id="contactChoice2" name="contact" value="phone">
+                    <label for="contactChoice2">Phone</label>
+
+                    <input type="radio" id="contactChoice3" name="contact" value="mail">
+                    <label for="contactChoice3">Mail</label>
+                </td>
+            </tr>
+        </table>
+        Your message: <br>
+        <textarea name="message" id="message" cols="20" rows="10"></textarea> <br>
+        <input type="submit" value="Let's Go">
+    </form>
+    <hr>
+</body>
+
+</html>
