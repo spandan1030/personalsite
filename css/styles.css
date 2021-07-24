@@ -1,23 +1,58 @@
 body {
-    background-color: #FCD8D4;
-    color : #851e51;
+  background-color: #fcd8d4;
+  color: #851e51;
 }
-img{
-    border : solid;
-    border-color: white;
+#profilepic {
+  border: solid;
+  border-color: black;
+  border-radius: 100%;
+  width: auto;
 }
-h3 {    color : #FF3D68;
-
+h3 {
+  color: #ff3d68;
 }
-h1 {    color : #FF6767;
-
+h1 {
+  color: #ff6767;
 }
 
-hr {    
-    width: 8%;
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #F5C6AA;
-    border-width: 7px;
+hr {
+  width: 8%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #f5c6aa;
+  border-width: 7px;
+}
+.links {
+  color: #52006a;
+  text-decoration: none;
+  font-weight: bold;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  /*border: solid;*/
+}
 
+#name {
+  border-style: solid;
+  border-color: #ffcec9;
+  background-color: #fdc8c2;
+  padding: 15px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.insta {
+  max-width: 2%;
+  max-height: 2%;
+  width: auto;
+  height: auto;
+  margin-left: 80%;
+  margin-right: 100%;
+  float: left;
+}
+
+.zoom :hover {
+  transform: scale(1.5);
 }
