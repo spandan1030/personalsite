@@ -253,13 +253,55 @@ body {
     background-color: #ffe4e2 ;
     text-align: left;
     border-radius: 25px;
-    text-align: center;
+    text-align: left;
     transition: 1s;
 }
 
 .fun-section:hover{
   transform: scale(1.1);
 }
+
+.barca-div1{
+  position: absolute;
+  height: 500px;
+  width: 50%;
+  left: 0;
+  top: 0;
+  background-color: #004D98;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px ;
+  opacity: 0.4;
+  animation-name: div1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes div1 {
+  0%   {background-color:#004D98;}
+  100% {background-color:#A50044;}
+}
+
+@keyframes div2 {
+  0%   {background-color:#A50044;}
+  100% {background-color:#004D98;}
+}
+.barca-div2{
+  position: absolute;
+  height: 500px;
+  width: 50%;
+  right: 0;
+  top: 0;
+  background-color: #A50044;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px ;
+  opacity: 0.4;
+  animation-name: div2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 .activity-list{
   font-family: "Work Sans", sans-serif; 
   font-size: 2em;
@@ -267,7 +309,77 @@ body {
 }
 .activity-heading{
   font-family: "Work Sans", sans-serif; 
-  font-size: 2em;
-  margin: 10px 0;
+  font-size: 1.7em;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 15%;
+  width: 70%;
+  color: #EDBB00;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-/*<a href="https://www.freepik.com/vectors/background"></a>*/
+
+.web-dev{
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  height: 150px;
+  width: 150px;
+}
+
+#act1{
+  font-size: 1.5rem;
+  margin-left: 7%;
+  margin-top: 7%;
+}
+
+.feedback-container{
+  position: fixed;
+  right: 3%;
+  bottom: 40px;
+  height: 50px;
+  max-width: 300px;
+}
+.feedback{
+  float: right;
+  height: 50px;
+  width: 50px;
+}
+  
+
+.popup{
+  position:static;
+  display: inline-block;
+  margin-block-start: 10px;
+  height: 30px;
+  width: 0px;
+  background-color: #99154E;
+  opacity: 0;
+  transition: 0.15s ;
+  border-radius: 25px;
+}
+.feedback-container:hover .popup {
+opacity: 1;
+width: 250px;
+}
+
+#comment{
+  color: transparent;
+  animation-delay: 10s;
+  font-size: 0px;
+  padding-top: 7px;
+}
+.feedback-container:hover #comment{
+  color: white;
+  font-size: 15px;
+}
+.feedback:hover{
+  transform: scale(1.1);
+  bottom:20px;
+}
+
+
+
+
+/*<a href="https://www.freepik.com/vectors/background"></a> , 0 6px 20px 0 rgba(0, 0, 0, 0.19) 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
