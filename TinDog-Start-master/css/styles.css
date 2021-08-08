@@ -1,0 +1,183 @@
+body{
+    background-color: #ff4c68;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#title{
+    background-color: #ff4c68;
+    
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu',serif;
+}
+.navbar{
+    width: 100%;
+    background-color: #ff4c68;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.nav-item{
+    padding-left:18px ;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+#meet{
+    font-family:'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-top: 5%;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% 0;
+}
+
+
+.button-container{
+margin-top: 15%;
+margin-bottom: 10%;             /*20%*/ 
+text-align: center;
+}
+
+#iphone-img{
+    height: 100%;            /*95*/
+    width: 60%;             /**/
+    transform: rotate(25deg);
+    position: relative;
+    left: 15%;
+    top: 10%;                     /*10%*/
+}
+
+#features{
+    background-color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 130px;
+}
+
+.feature-box{
+    padding-left: 40px;
+     padding-right: 40px;
+}
+.feature-icon{
+    color: #ef8172;
+    font-size: 4rem;
+    padding: 100px 0px 10px 0px;
+}
+.feature-heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.feature-head-caption{
+    text-align: center;
+    color: #8f8f8f;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+.testim-h2{
+    font-family: 'Montserrat-Black',sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testim-image{
+    width: 10%;
+    border-radius: 100%;    
+    margin: 20px;
+}
+
+#press{
+    text-align: center;
+    padding-right:  15%;
+    padding-left: 15%;
+    padding-bottom: 7%;
+
+}
+.testim-brand{
+    width: 20%;
+    margin: 80px 1.5% 30px 1.5%;
+}
+
+#testim-carousel{
+    padding: 7% 15% 0%;
+
+}
+
+.carousel-control:hover{
+    background-color: #f0988c;
+}
+
+#pricing{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 10%;
+}
+
+.pricing-caption{
+    color: #8f8f8f;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.price{
+    font-size: 2.1rem;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}
+
+.price-details{
+    color: #8f8f8f;
+}
+
+.premium{
+    background-color: #343a40;
+    color: #fff;
+}
+
+.price-button{
+    width: 90%;
+}
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cta{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.last-caption{
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: 'Ubuntu',serif;
+    font-size: 3.5rem;
+}
+
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 8% 30%;
+}
